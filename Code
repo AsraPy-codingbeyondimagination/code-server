@@ -1,14 +1,5 @@
 #!/bin/sh
 set -eu
-display_header() {
-    clear
-    cat << "EOF"
-========================================================================                                                                 
-                    POWERED BY AMITBHAI51
-========================================================================
-EOF
-    echo
-}
 
 # code-server's automatic install script.
 # See https://coder.com/docs/code-server/latest/install
@@ -142,7 +133,10 @@ EOF
 
 echo_coder_postinstall() {
   echoh
-  echoh "for any help- Join My Discord Server https://discord.gg/tBxZATkWwt"
+  echoh "========================================================================                                                                 
+                    POWERED BY AMITBHAI51
+========================================================================
+for any help- Join My Discord Server https://discord.gg/tBxZATkWwt"
 }
 
 main() {
