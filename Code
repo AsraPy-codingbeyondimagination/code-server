@@ -1,4 +1,5 @@
 #!/bin/sh
+set -eu
 display_header() {
     clear
     cat << "EOF"
@@ -8,7 +9,6 @@ display_header() {
 EOF
     echo
 }
-set -eu
 
 # code-server's automatic install script.
 # See https://coder.com/docs/code-server/latest/install
