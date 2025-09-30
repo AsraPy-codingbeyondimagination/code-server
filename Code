@@ -134,9 +134,9 @@ EOF
 echo_coder_postinstall() {
   echoh
   echoh "========================================================================                                                                 
-                    POWERED BY AMITBHAI51
+                    POWERED BY AsraPy - CodingBeyondImagination
 ========================================================================
-for any help- Join My Discord Server https://discord.gg/tBxZATkWwt"
+for any help- Join Our Discord Server https://discord.gg/tBxZATkWwt"
 }
 
 main() {
